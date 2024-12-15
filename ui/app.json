@@ -10,7 +10,9 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "facebookAppId": "YOUR_FACEBOOK_APP_ID",
+      "facebookDisplayName": "YOUR_APP_NAME"
     },
     "ios": {
       "supportsTablet": true
@@ -23,6 +25,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-facebook"
+    ]
   }
 }

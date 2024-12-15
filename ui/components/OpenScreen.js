@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     marginBottom: 15,
     textShadowColor: "rgba(0, 0, 0, 0.8)",
-    textShadowOffset: { width: 2, height: 2 },
+    textShadow: { width: 2, height: 2 },
     textShadowRadius: 6,
   },
   subtitle: {
@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     marginBottom: 15,
     textShadowColor: "rgba(0, 0, 0, 0.8)",
-    textShadowOffset: { width: 2, height: 2 },
+    textShadow: { width: 2, height: 2 },
     textShadowRadius: 6,
   },
   clickText: {
